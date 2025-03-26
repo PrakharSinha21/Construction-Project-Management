@@ -23,3 +23,29 @@ Documents      		Indicates whether supporting documents are attached (True/False
 Project	       		A numerical ID representing the project to which the form belongs.
 Report Forms Status	Additional status information about the form.
 Report Forms Group	Categorization of the form based on its reporting group.
+
+
+
+**Construction_Data_PM_Tasks_All_Projects.csv**
+This dataset records tasks related to construction projects, helping teams track work progress, deadlines, and status updates.
+
+**Column Name**	          **Description**
+Ref	              Unique reference identifier for each task.
+Status	          The current status of the task (e.g., Not Started, In Progress, Completed).
+Location	        The location associated with the task.
+Description	      A brief description of the task.
+Created	          The date when the task was created.
+Target	          The target completion date (if available).
+Type	            The type/category of the task (e.g., Safety Check, Construction Activity).
+To Package	      A reference to the package that the task belongs to.
+Status Changed	  The date when the task status was last updated.
+Association	      A reference to related entities (if any).
+OverDue	          Indicates whether the task is overdue (True/False).
+Images	          Indicates whether images are attached (True/False).
+Comments	        Indicates whether there are comments attached (True/False).
+Documents	        Indicates whether supporting documents are attached (True/False).
+Priority	        Task priority level (e.g., Low, Medium, High).
+Cause	            The reason for the task or issue (if applicable).
+Project	          The project ID associated with the task.
+Report Status	    Additional status details related to the report.
+Task Group	      Categorization of the task based on a reporting group.
