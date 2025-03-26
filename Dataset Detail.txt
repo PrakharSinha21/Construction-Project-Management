@@ -1,0 +1,25 @@
+## Overview of the Data
+These two datasets are related to construction project management. They contain data on project-related forms and tasks, helping teams track progress, manage deadlines, and monitor overall project efficiency.
+
+**Construction_Data_PM_Forms_All_Projects.csv**
+This dataset captures details of various forms used in construction project management. Forms could be reports, inspections, safety checklists, or documentation of project progress.
+
+
+**Column Name**			**Description**
+Ref	       		Unique reference identifier for each form.
+Status	       		The current status of the form (e.g., Open, Closed, Pending).
+Location       		The location where the form is applicable or generated.
+Name	       		The name or title of the form.
+Created	       		The date when the form was created.
+Type	       		Type/category of the form (e.g., Inspection, Safety Report).
+Status Changed 		The last date when the form's status was updated.
+Open Actions   		Number of pending actions related to the form.
+Total Actions  		Total number of actions (both completed and pending) associated with the form.
+Association    		A numerical identifier that links the form to other related entities.
+OverDue	       		Indicates if the form is overdue (True/False).
+Images	       		Indicates whether images are attached (True/False).
+Comments       		Indicates whether there are comments attached (True/False).
+Documents      		Indicates whether supporting documents are attached (True/False).
+Project	       		A numerical ID representing the project to which the form belongs.
+Report Forms Status	Additional status information about the form.
+Report Forms Group	Categorization of the form based on its reporting group.
